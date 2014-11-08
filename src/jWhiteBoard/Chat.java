@@ -19,6 +19,7 @@ public class Chat extends ReceiverAdapter {
         String line="[" + msg.getSrc() + "]: " + msg.getObject();
         System.out.println(line);
     }
+    
 
     /** Method called from other app, injecting channel */
     public void start(JChannel ch) throws Exception {
