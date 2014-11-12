@@ -18,6 +18,9 @@ public class DrawCommand implements Streamable {
     int x;
     int y;
     int rgb;
+
+
+
     
     
     
